@@ -1,14 +1,22 @@
 public class Rectangle {
-    float length;
-    float width;
+    private float width;
+    private float length;
 
     public Rectangle(){
-        length=1.0f;
-        width=1.0f;
+        width= 1.0f;
+        length = 1.0f;
     }
-    public Rectangle(float length, float width){
-        this.length=length;
+    public  Rectangle(float width,float length){
         this.width=width;
+        this.length=length;
+    }
+
+    public float getWidth() {
+        return width;
+    }
+
+    public void setWidth(float width) {
+        this.width = width;
     }
 
     public float getLength() {
@@ -19,27 +27,18 @@ public class Rectangle {
         this.length = length;
     }
 
-    public float getWidth() {
-        return width;
-    }
-
-    public void setWidth(float width) {
-        this.width = width;
-    }
     public double getArea(){
         return length*width;
     }
-    public double getPerimeter(){
-        return 2*(length+width);
+    private double getNua(){
+        return length+width;
     }
 
-    public static void main(String[] args) {
-        Rectangle R1 = new Rectangle(4,5);
-        System.out.println("S: " + R1.getArea());
-        Rectangle R2 = new Rectangle();
-        System.out.println("C: " + R2.getPerimeter());
-        Rectangle R3 = new Rectangle();
-        System.out.println("Width is: "+R3.getWidth());
+    public double getPerimetere(){
+        return 2*this.getNua();
+    }
+    public String toString(){
+        return  "Rectangle[width = " + width + ",length = " + length +" ]" ;
     }
 }
 
