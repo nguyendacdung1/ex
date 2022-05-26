@@ -1,0 +1,7 @@
+<!DOCTYPE Student [
+        <!ELEMENT Student (Name,Dob,BloodGroup,RoolNumber)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Dob (#PCDATA)>
+<!ELEMENT BloodGroup (#PCDATA)>
+<!ELEMENT RoolNumber (#PCDATA)>
+]>
