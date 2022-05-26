@@ -9,8 +9,9 @@
         <!ENTITY MS "Thatz life">
         ]>
 <Music_Library>
-        <Title>YLO</Title>
-        <Artist>&MS; - Jenny Dan</Artist>
-        <Country>Germanyo</Country>
-        <Year>2002</Year>
+    <Title>YLO</Title>
+    <Artist>&MS; - Jenny Dan</Artist>
+    <Country>Germanyo</Country>
+    <Price>$6</Price>
+    <Year>2002</Year>
 </Music_Library>
