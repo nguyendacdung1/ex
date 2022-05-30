@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="test/css" href="Rule.css"?>
+<books>
+<heading>Welcome to codelean.vn</heading>
+
+<book>
+    <title>Title -: Web Programming</title>
+    <author>Author -: ThiDK</author>
+    <publisher>Publisher -: Wiley</publisher>
+    <edition>Edition -: 3</edition>
+    <price>Price -: 300</price>vn
+</book>
+<book>
+<title>Title -: Internet world-wide-web</title>
+<heading>Welcome to codelean.vn</heading>
+<author>Author -: ThiDK</author>
+<publisher>Publisher -: Wiley</publisher>
+<edition>Edition -: 3</edition>
+<price>Price -: 400</price>vn
+</book>
+<book>
+<title>Title -: Computer Netword</title>
+<heading>Welcome to codelean.vn</heading>
+<author>Author -: ThiDK</author>
+<publisher>Publisher -: Wiley</publisher>
+<edition>Edition -: 5</edition>
+<price>Price -: 700</price>vn
+</book>
+<book>
+<title>Title -: DBMS Concepts</title>
+<heading>Welcome to codelean.vn</heading>
+<author>Author -: ThiDK</author>
+<publisher>Publisher -: Wiley</publisher>
+<edition>Edition -: 5</edition>
+<price>Price -: 600</price>vn
+</book>
+<book>
+<title>Title -: Linux Programming</title>
+<heading>Welcome to codelean.vn</heading>
+<author>Author -: ThiDK</author>
+<publisher>Publisher -: Wiley</publisher>
+<edition>Edition -: 8</edition>
+<price>Price -: 300</price>vn
+</book>
+</books>
